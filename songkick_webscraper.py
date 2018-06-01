@@ -34,7 +34,7 @@ for alphabet in alphabets:
 
             f = open(EVENT_FILE_NAME, "a")
             f.write("{" +
-                    "\"name\":\""+event_name +", "+
+                    "\"name\":\""+event_name +"\", "+
                     "\"location\":\""+event_location+"\", "+
                     "\"event_url\":\"" + event_link + "\", " +
                     "\"event_date_time\":\"" + event_date + "\"" +
